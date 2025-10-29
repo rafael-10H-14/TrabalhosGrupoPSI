@@ -10,7 +10,7 @@ namespace TrablhoM9
     {
         static void Main(string[] args)
         {
-            DizerSaudacao();
+            //DizerSaudacao();
             Console.WriteLine();
             int[] numeros = new int[10];
             Console.WriteLine($"Digite números inteiros: ");
@@ -20,7 +20,7 @@ namespace TrablhoM9
                 numeros[i] = int.Parse(Console.ReadLine());
             }
             int maximo = numeros[0];
-            int indice = 0;
+            int indice = 1;
             for (int i = 1; i < numeros.Length; i++)
             {
                 if (numeros[i] > maximo)
