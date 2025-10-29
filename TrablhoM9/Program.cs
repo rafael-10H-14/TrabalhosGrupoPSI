@@ -11,6 +11,7 @@ namespace TrablhoM9
         static void Main(string[] args)
         {
             DizerSaudacao();
+
             Console.WriteLine();
             int[] numeros = new int[10];
             Console.WriteLine($"Digite números inteiros: ");
