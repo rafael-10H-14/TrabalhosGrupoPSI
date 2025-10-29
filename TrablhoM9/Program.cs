@@ -11,7 +11,7 @@ namespace TrablhoM9
         static void Main(string[] args)
         {
             int[] numeros = new int[10];
-            Console.Write($"Digite números inteiros: ");
+            Console.WriteLine($"Digite números inteiros: ");
             for (int i = 0; i < numeros.Length; i++)
             {
                 Console.Write($"{i+1}º número: ");
