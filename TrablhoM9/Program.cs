@@ -20,7 +20,7 @@ namespace TrablhoM9
                 numeros[i] = int.Parse(Console.ReadLine());
             }
             int maximo = numeros[0];
-            int indice = 0;
+            int indice = 1;
             for (int i = 1; i < numeros.Length; i++)
             {
                 if (numeros[i] > maximo)
@@ -34,6 +34,7 @@ namespace TrablhoM9
                 Console.WriteLine(numero);
             }
             Console.WriteLine("Maior número: {0}, índice: {1}", maximo, indice);
+            Console.WriteLine("OK");
             Console.ReadKey();
         }
         private static void DizerSaudacao()
