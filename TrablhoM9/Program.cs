@@ -31,7 +31,7 @@ namespace TrablhoM9
                 Console.WriteLine(numero);
             }
             Console.WriteLine("Maior número: {0}, índice: {1}", maximo, indice);
-            Console.WriteLine("Boa tarde");
+            Console.WriteLine("Boa noite");
             Console.ReadKey();
         }
     }
