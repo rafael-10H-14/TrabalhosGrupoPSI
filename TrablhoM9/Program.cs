@@ -11,9 +11,10 @@ namespace TrablhoM9
         static void Main(string[] args)
         {
             int[] numeros = new int[10];
+            Console.Write($"Digite números inteiros: ");
             for (int i = 0; i < numeros.Length; i++)
             {
-                Console.Write($"Digite um número inteiro {i+1}: ");
+                Console.Write($"{i+1}º número: ");
                 numeros[i] = int.Parse(Console.ReadLine());
             }
             int maximo = numeros[0];
